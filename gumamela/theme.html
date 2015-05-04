@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License-->
+<html xmlns="http://www.w3.org/1999/xhtml" 
+xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; 
+charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" 
+href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" 
+href="<{$xoops_themecss}>" />
+<link rel="stylesheet" href="http://localhost/xoops2/themes/gumamela/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://localhost/xoops2/themes/gumamela/top_menu.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://localhost/xoops2/themes/gumamela/boxes.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://localhost/xoops2/themes/gumamela/bubbles.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://localhost/xoops2/themes/gumamela/iconize.css" type="text/css" media="screen" />
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+<script src="http://localhost/xoops2/themes/gumamela/js/prototype.js" type="text/javascript"></script>
+	<script src="http://localhost/xoops2/themes/gumamela/js/scriptaculous.js?load=effects" type="text/javascript"></script>
+	<script src="http://localhost/xoops2/themes/gumamela/js/lightbox.js" type="text/javascript"></script>
+<script src="http://localhost/xoops2/themes/gumamela/js/reflection.js" type="text/javascript"></script>
+<script src="http://localhost/xoops2/themes/gumamela/js/smoothscroll.js" type="text/javascript"></script>
+<script src="http://localhost/xoops2/themes/gumamela/js/photoshuffler.js" type="text/javascript"></script>
+<script src="http://localhost/xoops2/themes/gumamela/js/textsizer.js" type="text/javascript"></script>
+<a name="top"></a>
+</head>
+<body>
+<div id="content">
+	<div id="colOne">
+	  <div id="header"><div id="photodiv">
+<img id="photoimg" src="<{$xoops_url}>/themes/gumamela/images/005.jpg?v=0" />
+</div>			
+			
+		</div>
+		<div class="post"> 
+		<{$xoops_contents}>
+			<div class="meta">
+				<p>Filed under <a href="#" class="category">Uncategorized</a> | <a href="#" class="comment">1 Comment &raquo;</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="leftcolumn">
+	<ul>
+	<li id="menu">
+				<h2>Pages</h2>
+				<ul>
+					<li class="active"><a href="#">My Blog</a></li>
+					<li><a href="#">My Photos</a></li>
+					<li><a href="#">My Favorites</a></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Contact Me</a></li>
+				</ul>
+				<div class="blockContent"><form style="margin-top: 0px;" action="<{$xoops_url}>/search.php" method="get">
+  <input type="text" name="query" size="14" /><input type="hidden" name="action" value="results" /><input type="submit" value="buscar" />
+</form>
+<a href="<{$xoops_url}>/search.php"><{$block.lang_advsearch}></a></div>
+			</li>
+			
+	<!-- Start left blocks loop -->
+		<li>
+<{foreach item=block from=$xoops_lblocks}>
+<div class="blockTitle"><h2><{$block.title}></h2></div>
+<div class="blockContent"><{$block.content}></div>
+<{/foreach}>
+<!-- End left blocks loop -->
+		</li>
+		<!-- end menu -->
+<!-- Start right blocks loop -->
+		<div id="rightcolumn"><li>
+	<{foreach item=block from=$xoops_rblocks}>
+<div class="blockTitle"><{$block.title}></div>
+<div class="blockContent"><{$block.content}></div>
+<{/foreach}>
+<!-- End right blocks loop -->		
+		</li>
+	</div>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+	<p><{$xoops_footer}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#top">Arriba</a></p>
+</div>
+</body>
+</html>

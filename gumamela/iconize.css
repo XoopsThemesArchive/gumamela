@@ -1,0 +1,135 @@
+a[href$='.doc'],a[href$='.rtf'] {
+background:transparent url(icons/icon_doc.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.txt'] {
+background:transparent url(icons/icon_txt.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.xls'] {
+background:transparent url(icons/icon_xls.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.rss'],a[href$='.atom'] {
+background:transparent url(icons/icon_feed.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.opml'] {
+background:transparent url(icons/icon_opml.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.vcard'] {
+background:transparent url(icons/icon_vcard.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.exe'] {
+background:transparent url(icons/icon_exe.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.dmg'],a[href$='.app'] {
+background:transparent url(icons/icon_dmg.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.pdf'] {
+background:transparent url(icons/icon_pdf.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.xpi'] {
+background:transparent url(icons/icon_plugin.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.fla'],a[href$='.swf'] {
+background:transparent url(icons/icon_flash.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.zip'],a[href$='.rar'],a[href$='.gzip'],a[href$='.bzip'],a[href$='.ace'] {
+background:transparent url(icons/icon_archive.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.ical'] {
+background:transparent url(icons/icon_ical.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.css'] {
+background:transparent url(icons/icon_css.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.ttf'] {
+background:transparent url(icons/icon_ttf.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.mp3'],a[href$='.wav'],a[href$='.ogg'],a[href$='.wma'],a[href$='.m4a'] {
+background:transparent url(icons/icon_music.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href ^="aim:"] {
+background:transparent url(icons/icon_aim.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href ^="msnim:"] {
+background:transparent url(icons/icon_msn.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href ^="xmpp:"] {
+background:transparent url(icons/icon_jabber.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href *="icq.com"] {
+background:transparent url(icons/icon_icq.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href *="edit.yahoo.com/config/send_webmesg?"] {
+background:transparent url(icons/icon_yim.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href ^="callto:"] {
+background:transparent url(icons/icon_call.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href ^="skype:"] {
+background:transparent url(icons/icon_skype.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+.imageLink {
+padding-right:0 !important;
+background:none !important;
+}
+
+a[href *="youtube.com/watch?"],a[href *="sevenload.com/videos/"],a[href *="metacafe.com/watch/"],*/
+a[href$='.mov'],a[href$='.wmv'],a[href$='.mp4'],a[href$='.avi'],a[href$='.mpg'] {
+background:transparent url(icons/icon_film.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href *="flickr.com/photos/"],a[href *="zooomr.com"],a[href *="imageshack.us"],a[href *="bubbleshare.com"],a[href *="sevenload.com/bilder/"],*/a[href$='.jpg'],a[href$='.gif'],a[href$='.png'],a[href$='.bmp'],a[href$='.jpeg'],a[href$='.svg'],a[href$='.eps'] {
+background:transparent url(icons/icon_pic.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
+
+a[href$='.pps'],a[href$='.ppt'] {
+background:transparent url(icons/icon_pps.gif) no-repeat center right;
+padding:5px 20px 5px 0;
+}
